@@ -12,11 +12,11 @@ waiter.until(
 )
 
 # Решение с тегом img
-# search_img = driver.find_elements(By.CSS_SELECTOR, "img")
-# print(search_img[3].get_dom_attribute("src"))
+search_img = driver.find_elements(By.CSS_SELECTOR, "img")
+print("Решение с тегом img: " + search_img[3].get_dom_attribute("src"))
 
 # Решение с атрибутом [alt]
 search_img = driver.find_elements(By.CSS_SELECTOR, "[alt]")
-print(search_img[2].get_dom_attribute("src"))
+print("Решение с атрибутом [alt]: " + search_img[2].get_dom_attribute("src"))
 
 driver.quit()
