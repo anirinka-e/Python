@@ -55,5 +55,7 @@ def test_field(driver):
         "background-color") == "rgba(209, 231, 221, 1)"
     assert driver.find_element(By.CSS_SELECTOR, "#phone").value_of_css_property(
         "background-color") == "rgba(209, 231, 221, 1)"
+    assert driver.find_element(By.CSS_SELECTOR, "#job-position").value_of_css_property(
+        "background-color") == "rgba(209, 231, 221, 1)"
     assert driver.find_element(By.CSS_SELECTOR, "#company").value_of_css_property(
         "background-color") == "rgba(209, 231, 221, 1)"
