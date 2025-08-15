@@ -2,13 +2,11 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.common.keys import Keys
 from ShopPage import ShopPage
 from ShopInventorytPage import ShopInventorytPage
 from ShopCartPage import ShopCartPage
 from ShopCheckoutStepOnePage import ShopCheckoutStepOnePage
 from ShopOverviewPage import ShopOverviewPage
-from time import sleep
 
 
 @pytest.fixture
