@@ -14,6 +14,8 @@ class ShopOverviewPage:
         self.driver.maximize_window()
 
     def check_overview(self):
-        result = self.driver.find_element(By.CSS_SELECTOR, ".summary_total_label").text
+        result = self.driver.find_element(
+            By.CSS_SELECTOR, ".summary_total_label"
+        ).text
         print(result)
-        assert result== "Total: $58.29"
+        assert result == "Total: $58.29"

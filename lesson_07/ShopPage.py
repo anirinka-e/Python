@@ -14,8 +14,12 @@ class ShopPage:
         self.driver.maximize_window()
 
     def input_login(self, login, password):
-        self.driver.find_element(By.CSS_SELECTOR, "#user-name").send_keys(login)
+        self.driver.find_element(
+            By.CSS_SELECTOR, "#user-name"
+        ).send_keys(login)
         self.driver.find_element(By.CSS_SELECTOR, "#password").send_keys(password)
 
     def click_login(self):
-        self.driver.find_element(By.CSS_SELECTOR, "#login-button").click()
+        self.driver.find_element(
+            By.CSS_SELECTOR, "#login-button"
+        ).click()

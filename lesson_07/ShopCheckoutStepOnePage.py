@@ -15,7 +15,9 @@ class ShopCheckoutStepOnePage:
 
     def input_information(self, fields):
         for field, value in fields.items():
-            self.driver.find_element(By.CSS_SELECTOR, "#" + field).send_keys(value)
+            self.driver.find_element(
+                By.CSS_SELECTOR, "#" + field
+            ).send_keys(value)
 
     def click_continue(self):
         self.driver.find_element(By.CSS_SELECTOR, "#continue").click()

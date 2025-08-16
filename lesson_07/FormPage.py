@@ -10,7 +10,9 @@ class FormPage:
         self.waiter = WebDriverWait(driver, 10)
 
     def open_browser(self):
-        self.driver.get('https://bonigarcia.dev/selenium-webdriver-java/data-types.html')
+        self.driver.get(
+            'https://bonigarcia.dev/selenium-webdriver-java/data-types.html'
+        )
         self.driver.implicitly_wait(4)
         self.driver.maximize_window()
 

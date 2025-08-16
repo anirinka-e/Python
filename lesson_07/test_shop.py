@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from ShopPage import ShopPage
-from ShopInventorytPage import ShopInventorytPage
+from ShopInventoryPage import ShopInventoryPage
 from ShopCartPage import ShopCartPage
 from ShopCheckoutStepOnePage import ShopCheckoutStepOnePage
 from ShopOverviewPage import ShopOverviewPage
@@ -21,9 +21,11 @@ def test_calc(driver):
     login = "standard_user"
     password = "secret_sauce"
 
-    products = ["sauce-labs-backpack",
-                "sauce-labs-bolt-t-shirt",
-                "sauce-labs-onesie"]
+    products = [
+        "sauce-labs-backpack",
+        "sauce-labs-bolt-t-shirt",
+        "sauce-labs-onesie"
+    ]
 
     fields = {
         'first-name': "Екатерина",
@@ -32,7 +34,7 @@ def test_calc(driver):
     }
 
     shop_page = ShopPage(driver)
-    inventory_page = ShopInventorytPage(driver)
+    inventory_page = ShopInventoryPage(driver)
     shop_cart_page = ShopCartPage(driver)
     checkout_step_one_cart_page = ShopCheckoutStepOnePage(driver)
     checkout_overview = ShopOverviewPage(driver)
