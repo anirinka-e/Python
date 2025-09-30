@@ -29,9 +29,7 @@ class SchedulePageApi:
     @allure.step("Создать личное событие")
     def create_personal(self, token: dict, body: dict) -> json:
         """"Метод создания события"""
-        print("я тут")
         resp = requests.post(self.url + "/v2/schedule/createPersonal", json=body, cookies=token)
-        print("создал?", resp)
 
         return resp
 

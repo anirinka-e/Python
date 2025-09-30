@@ -98,6 +98,11 @@ class SchedulePageUI:
 
     @allure.step("Переключение на вкладку личного сообщения")
     def switch_personal(self) -> None:
+        self.waiter.until(
+            EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, ".popup-header.-with-close-icon")
+            )
+        )
         self.driver.find_element(By.XPATH, "//span[text()=' Личное событие ']").click()
 
     @allure.step("Переключение цвета личного сообщения")
@@ -180,7 +185,12 @@ class SchedulePageUI:
 
     @allure.step("Проверка проверка цвета")
     def chek_event_color_on_table(self, color: str) -> bool:
-        self.driver.find_element(By.CSS_SELECTOR, ".personal-container.event-block__container")
+        self.waiter.until(
+            EC.visibility_of_element_located(
+                (By.CSS_SELECTOR, ".personal-container.event-block__container")
+            )
+        )
+        # self.driver.find_element(By.CSS_SELECTOR, ".personal-container.event-block__container")
         if self.waiter.until(EC.presence_of_element_located(
                 (By.CSS_SELECTOR, ".personal-container.event-block__container"))).value_of_css_property(
             "background-color") == color:
