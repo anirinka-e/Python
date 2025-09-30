@@ -1,0 +1,34 @@
+{
+  "my_creds": {
+        "login": "test.tst320@skyeng.ru",
+        "password": "pr4VmfgHsi"
+    },
+  "token_global": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0NzIwMDY5LCJpZGVudGl0eSI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5ODU0NTg2NTY4IiwibmFtZSI6InRlc3RURUNUIiwic3VybmFtZSI6bnVsbCwiZW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJ1aUxhbmd1YWdlIjoicnUiLCJsb2NhbGUiOiJydSIsInNlcnZpY2VMb2NhbGUiOm51bGwsInVhcyI6MzAsImp3dFR5cGUiOjEsImp0aSI6IllDUVJNQjlaS2RnU1gwVVBJNkR6SzRaY1NWUlVvdG0yIiwiYnJhbmQiOm51bGwsImV4cCI6MTc1OTI1NzcwMiwiYmlydGhkYXkiOiIyMDA3LTEyLTI4IiwiYUlzU3Ryb25nIjp0cnVlLCJhVHlwZSI6IlVTRVJOQU1FX1BBU1NXT1JEIiwiYVRpbWUiOjE3NTkxNzEzMDEsInJvbGVzIjpbIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEUiLCJST0xFX1RFQUNIRVJfQ0FORElEQVRFX0JBU0VfQUNDRVNTIiwiUk9MRV9UUk1fVVBMT0FEX0ZJTEUiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX1RFQUNIRVJTX0NBQklORVRfQkFTRV9BQ0NFU1MiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciXX0.koq2c5g7SsDZv-dA_9vs2iQwPb_978RGz_hBCqng9VPmab-tb-IZtW3t9WLeultsv9nciftltC6-tn6LVdV7IFfrYrmYe1dbH_UwCdxQZVS7wqjrrD9y_wiIeqQMMKDYXZRfLgf5IW1pYFFKAK9z-kfBE5_uVi1ElOliJTznsF1xFujCCTLyKupv7fMCe0q1ZCagP7wwzP4sZMdtbjMKBzyu8iCwfLmdKX6FcOR-J_4noLXNrCziJeMHVEeiGR5qzEyxb1t1w1yr8HOzj8FGvN157CDQ0K4__AMCjwkIcVnwM4yFnmiHTPfRAQCytiDXG8Nvie7ymt1P5Tr6K9opr11V9VeVIlDJnegaDoVB_C5wjFaeWHHDaJuAonUyjgMvkePxrUCzvWvHQHTCqYQj1fL76JKgC9d5gqdAtgYnwoSaK8HdZuVJPUEcWPbne2v9S9qaGvQw8IbliuWL1jszSRiKAfArA1sjuxvZt94ZI_JJ97Rt30LTbtStI9R_5lG7cn2ZPVHXYjXzuoDOKOpKMBAD6QMF8-NavnjFbxEQO-hlv60UtPyUuSIzq1_JnNTgvcPcJJPyEutm4wBs2UrbN1U7Rv0ZVlWuUs0mblJCEJuCug9WAlSzXjJxRkVQXinwlKq0RYflmrfx0NNmgrs4b3RL0UEtyRsM3Phvq4N_vEE",
+  "body_events" : {
+        "from": "2025-10-06T00:00:00+03:00",
+        "till": "2025-10-13T00:00:00+03:00",
+        "onlyTypes": ["event"]
+    },
+  "locator_events_ui": "[style*='top: 0px; left: 1px; ']",
+  "body_date": {
+        "body": {
+            "backgroundColor": "#FFF7C7",
+            "color": "#FAC641",
+            "description": "",
+            "endAt": "2025-10-06T00:30:00+03:00",
+            "startAt": "2025-10-06T00:00:00+03:00",
+            "title": "New event"
+        },
+        "body_del": {
+            "id": "",
+            "startAt": "2025-10-06T00:00:00+03:00"
+        },
+        "body_update": {
+            "id": "",
+            "oldStartAt": "2025-10-06T00:00:00+03:00"
+        },
+        "title_new": "New title",
+        "oldStartAt_new": "2025-12-06T00:00:00+03:00"
+    },
+    "40_symbol": "Lorem ipsum dolor sit amet, consectetuer"
+}
